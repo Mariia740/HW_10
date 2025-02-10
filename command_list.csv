@@ -1,0 +1,28 @@
+    1  clear
+    2  cd Desktop
+    3   git config--global user.name "maria skidan"
+    4  git config --global user.name "maria skidan"
+    5  git config --global user.email mari.pivtorak.91@gmail.com
+    6  cd Git
+    7  git clone https://github.com/Mariia740/HW_10.git
+    8  cd HW_10
+    9  touch  text_ignore.txt
+   10  nano  text_ignore.txt
+   11  git status
+   12  git add .
+   13  git commit -m "gitignore"
+   14  touch main_test.txt
+   15  git add .
+   16  git commit -m "A"
+   17  git checkout -b developer
+   18  git checkout developer
+   19  touch develop_test.txt
+   20  git add .
+   21  git commit -m "B"
+   22  nano  develop_test.txt
+   23  git status
+   24  git add .
+   25  git commit -m "C"
+   26  git checkout main
+   27  git merge developer
+   28  git log
